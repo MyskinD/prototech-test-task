@@ -17,7 +17,7 @@ WHERE
 /* Составить запрос SQL, который выдаст число занесенных в таблицу товаров  и среднюю цену товара. */
 
 SELECT
-	count(id), avg(price)
+	count(id) as count, avg(price) as avg_price
 FROM
 	products;
 
